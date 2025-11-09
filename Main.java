@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -36,23 +35,23 @@ public class Main {
                         System.out.println();
                         break;
                     case 3:
-
+                        BoxMaxDemo.demo();
                         System.out.println();
                         break;
                     case 4:
-
+                        FunctionDemo.demo();
                         System.out.println();
                         break;
                     case 5:
-
+                        FilterDemo.demo();
                         System.out.println();
                         break;
                     case 6:
-
+                        ReductionDemo.demo();
                         System.out.println();
                         break;
                     case 7:
-
+                        CollectDemo.demo();
                         System.out.println();
                         break;
                 }

@@ -22,12 +22,12 @@ public class Box<T> {
         return temp;
     }
 
+    public T peek() {
+        return this.item;
+    }
+
     @Override
     public String toString() {
-        if (isEmpty()) {
-            return "Коробка пуста.";
-        } else {
-            return "В коробке находится: " + item.toString();
-        }
+        return isEmpty() ? "Коробка пуста." : "В коробке находится: " + item.toString();
     }
 }
